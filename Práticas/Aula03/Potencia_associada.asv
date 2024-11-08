@@ -1,0 +1,9 @@
+function [potencia] = Potencia_associada(vetor_amostras, periodo_amostragem, periodo)
+%POTENCIA_ASSOCIADA Summary of this function goes here
+%   Detailed explanation goes here
+numero_periodos=4;
+
+N = (periodo / periodo_amostragem)*numero_periodos;
+potencia = (1 / numero_periodos)*(sum(abs(vetor_amostras))^2)
+end
+

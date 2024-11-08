@@ -1,0 +1,18 @@
+
+% plot trainning
+x = [-2*pi:0];
+y = sin(x).*exp(x);
+
+plot(x,y,'r');
+axis([-8 9 -0.5 0.8]);
+
+
+% function trainning
+function res = ex(N, x);
+
+x=[0:2*pi]
+for n=[1:N]
+
+    sin(x) = sin(x) + (x^)
+end
+
